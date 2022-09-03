@@ -291,7 +291,10 @@ display: none;
   .footerCard{
   grid-template-columns: repeat(5, 1fr);
   }    
-  
+
+  .leading p{
+    font-size: xx-large;
+  }
   }
 
 
