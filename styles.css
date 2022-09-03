@@ -117,16 +117,18 @@ h2,h1{
 .miniLOGO li{
   display: inline-block;
   margin-bottom: 15px;
+  padding-left: 5px;
 
 }
 #portfolio p{
 padding: 10px;
 }
 
-footer .card {
+ .footerCard {
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
+  color:#080708;
 }
 
 #portfolio .card {
