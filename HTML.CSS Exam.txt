@@ -31,7 +31,7 @@ Instrukcijas, kaip susikurti GitHub repozitoriją rasite - https://docs.github.c
 
 Kaip galima sukurti Pull Request galite sužinoti čia - https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/creating-a-pull-request
 
-Naują šaką galima susikurti įvykdžius `git remote add origin https://github.com/sattixa/CSS_exam_task.git` komandą terminale.
+Naują šaką galima susikurti įvykdžius `git checkout -b dev` komandą terminale.
 
 3. Kuriant sistemą pakeitimus nuolatos saugoti su pakeitimus su prasmingomis "commit" žinutėmis.
 
@@ -39,4 +39,4 @@ Naują šaką galima susikurti įvykdžius `git remote add origin https://github
 
 Jeigu to padaryti nepavyks galite tiesiog įkelti archyvuotus failus.
 
-Sėkmės!
+Sėkmės! 
