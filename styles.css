@@ -17,6 +17,8 @@ li{
   list-style-type: none;
 }
 
+
+
 /* base styles */
 body{
   background: var(--white);
@@ -81,27 +83,24 @@ h2,h1{
 }
 #portfolio{
   padding: 30px 20px;
-  display: flex;
     }
+
+    .site-nav{
+      display: flex;
+      margin: 0 20px;
+      align-self: center;
+      justify-content: space-between;
+    } 
+  
+
 
 /* mobile styles */
 
-   .site-nav{
-    margin: 0 20px;
-    grid-column: 1/8;
-    align-self: center;
-  } 
-
-  .site-nav h1{
-    grid-column: 1/4;
-    grid-row: 1;
-    padding-bottom: 10px;
-    border-bottom: 3px solid var(--primary);
-    display: inline-block;
-   }
+  
 
    #burger{
-    grid-column: 8/8;
+    float: right;
+
    }
     
    #logo {
@@ -162,13 +161,15 @@ padding: 10px;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40%;
+  width: 35%;
 }
 
 .projects {
   min-width: 1200px;
     gap: 20px;
     display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .grid{
@@ -193,19 +194,32 @@ padding: 10px;
 }
 .welcome-img img{
   width: 200%; 
+  margin-left: 30px;
 } 
 
 .site-nav ul{
 display: none; 
  } 
+
 .launching{
   display: none;
 }
+
+
 .footer{
   display: flex;
 }
+
+
+#logo .bonusImage {
+  display: none;}
+
+#logo .LongBoom {
+  display: none;
+}
+
  /* laptop styles */
-@media screen and (min-width: 960px){
+@media screen and (min-width: 640px){
 
   .site-nav ul{
     display: flex;
@@ -214,4 +228,71 @@ display: none;
     text-decoration: none;
       }
 
+      #Burger{
+      display: none;
+
+
+      }
+
+      .site-nav ul{
+        float: right;
+        font-size: larger;
+        gap: 10px;
+        color: #a8aab8;
+
+
+      }
+      .site-nav img{
+        float: left;
+      }
+
+      .welcome-text{
+      font-size: x-large;
+        grid-column: 1/4;
+      }
+
+        .welcome-img{
+        grid-column: 4/7;
+        max-width: 400px ;
+        }
+
+       
+#logo img{
+  width: 10%;
+
 }
+
+#logo .bonusImage{
+  display: inline;} 
+
+  #logo .LongBoom{
+    Display: inline;
+  }
+
+  #logo .ShortBoom{
+    Display: none;
+  }
+.launching{
+  display:flex;
+  
+}
+
+  .footer{
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  
+
+  #signUp{
+    color: var(--secondary);
+  }
+
+  .footerCard{
+  grid-template-columns: repeat(5, 1fr);
+  }    
+  
+  }
+
+
+
